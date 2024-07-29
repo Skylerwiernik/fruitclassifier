@@ -2,7 +2,6 @@ import os
 import cv2
 from ultralytics import YOLO
 from pathlib import Path
-from time import sleep
 
 
 def crop_image(image_path:str|Path, output_dir:str|Path, model_weights:str|Path):
